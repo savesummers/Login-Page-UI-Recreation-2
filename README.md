@@ -63,9 +63,3 @@ This project was built as a **UI cloning and layout practice exercise**, focusin
 - Implement real authentication flow
 - Improve accessibility (ARIA labels)
 - Add dark/light mode toggle
-
----
-
-## Author
-
-Built by **[Your Name]** as part of front-end development practice.
