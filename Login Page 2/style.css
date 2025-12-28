@@ -1,0 +1,112 @@
+body {
+    background-image: url(Images/background.jpg);
+    background-size: cover;
+    color: white;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login {
+    width: 650px;
+    height: 803px;
+    background-color: rgb(18, 19, 41);
+    float:right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+}
+.position{
+    width: 420px;
+}
+#Google {
+    border-color: grey;
+    background-color: rgba(186, 186, 186, 0);
+    width: 420px;
+    height: 38px;
+    color : white;
+    text-decoration: none;
+    font-size: 15px;
+    background-repeat: no-repeat;
+    background-image: url(Images/Google.png);
+    background-position: 120px center;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#Loginb {
+    margin-top: 10px;
+    width: 420px;
+    height: 35px;
+    background-color: rgb(0, 200, 255);
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+h1{
+    font-size: 60px;
+}
+#Welcome {
+    font-size: 25px;
+}
+p a {
+    text-decoration: none;
+}
+#or {
+    text-align: center;
+}
+
+label {
+    display: flex;
+    margin-bottom: 6px;
+}
+#email, #password {
+    width: 385px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-right: 30px ;
+}
+#RemnFor {
+    display: flex;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    padding-left: 0px
+}
+#forgot {
+    margin-left: 153px;
+    text-align: right;
+    padding-left: 0px;
+    position: relative;
+    left: 12px;
+    color: white;
+    text-decoration: none;
+}
+#hidden {
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 20px;
+    height: 15px;
+    background-image: url(Images/hidden.png);
+    background-position: center;
+    position: relative;
+    bottom: 130px;
+    left: 397px;
+    border-color: transparent
+}
+#hidden:active {
+    background-image: url(Images/visible.png);
+}
+#Google:hover {
+    background-color: rgb(0, 200, 255);
+}
+#forgot:hover {
+    text-decoration: underline;
+}
+#account{
+    text-align: center;
+}
+p a:hover {
+    text-decoration: underline;
+}

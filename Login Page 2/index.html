@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
+    </header>
+    <body>
+        <div class = 'login'>
+            <div class = 'position'>
+                <h1>Login</h1>
+                <p id = 'Welcome'>Welcome Back! Please login to your account.</p>
+                <a href="http://"><button id = 'Google'>Sign in with Google</button></a>
+                <p id = 'or' >OR</p>
+                <form action="Login" method="post">
+                    <label for="email" type = 'email' form="email">Email</label>
+                    <input  name = 'email' type="email" id="email">
+                    <label for="password" type = 'password' form = 'password'>Password</label>
+                    <input type="password" name="password" id="password">
+                </form>
+                <div id = 'RemnFor'>
+                    <form action="Remember Me">
+                        <input type="checkbox" name="Remember Me" id="RememberMe">Remember Me
+                    </form>
+                    <a href="http://" id = 'forgot'>Forgot Password?</a>
+                </div>
+                <form action="login button" method="post">
+                    <input type="button" value="Login" id = 'Loginb'>
+                </form>
+                <button id = 'hidden'></button>
+                <p id = 'account'>Don't have an account? <a id = 'signup' href="http://">Sign up</a></p>
+            </div>
+        </div>
+    </body>
+</html>
